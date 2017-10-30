@@ -1,0 +1,51 @@
+.container {
+	width: 96%;		
+}
+
+.menu-lateral, 
+.menu-rede-social,
+.row-button-home {
+	display: none;
+}
+
+.row-name-home {
+	padding-bottom: 20%;
+}
+
+.container-sobre-mim {
+	width: 96%;
+}
+
+.title-super {
+	text-align: center;
+}
+
+.foto-nicole {	
+	width: 240px;
+	height: 240px;
+}
+
+.glyphicon-title {
+	display: none;
+}
+
+.descricao-sobre-mim {
+	text-align: center;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.padding-top {
+	padding-top: 10%;
+}
+
+.col-front-end,
+.col-back-end,
+.col-habilidades {
+	height: 30%;
+	padding-bottom: 20%;
+}
+
+.content-contato {
+	background-image: url("../img/fundo-laranja.jpg");
+}

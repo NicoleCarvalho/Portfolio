@@ -1,0 +1,311 @@
+/*#ff4000 - laranja
+#00ffbf - verde claro
+#0040ff - azul escuro
+#9C9C9C - cinza
+*/
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.title-super {
+	font-size: 50px;
+	margin-left: 1%;
+	font-family: 'Lato', sans-serif;
+}
+
+.color-muted {
+	color: white;
+}
+
+.menu-lateral {
+	padding-left: 3.5%;	
+}
+
+.menu-lateral ul li {
+	list-style-type: none;
+	padding-top: 15px;
+}
+
+.menu-lateral ul a span:hover {
+	color: #ff4000;
+}
+
+.glyphicon-menu-hamburger {
+	font-size: 40px;
+	margin-top: 1%;	
+}
+
+.glyphicon-title {
+	font-size: 50px;
+	padding-right: 20px;
+	padding-left: 50%;
+
+}
+
+.color-orange {
+	color: #ff4000;
+}
+
+.container {
+	width: 100%;
+}
+
+/*------ Rules home --------*/
+.container-home {
+	background-image: url("../img/home.jpg"); 
+	background-repeat: no-repeat;
+	background-size: 100%;	
+	width: 100%;
+}
+
+.row-name-home {
+	margin-top: 12%;
+}
+
+.row-button-home {
+	margin-top: 18%;
+	padding-bottom: 4%;
+}
+
+.row-menu-home {
+	padding-top: 1%;
+}
+
+.menu-rede-social ul li {
+	display: inline;
+	list-style-type: none;
+	padding-left: 3%;
+}
+
+.lista-rede-social img:hover { 
+    border-radius: 20px;
+}
+
+.lista-rede-social img {
+	height: 40px;
+	width: 40px;
+	display: inline;
+}
+
+.title-logo {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 80px;
+}
+
+.title-logo:hover {
+	color: #ff4000;
+}
+/* -----End-if-----*/
+
+
+
+/* Rules sobre mim*/
+.container-sobre-mim {
+	background-color: #f05f40;
+	width: 100%;
+}
+
+.foto-nicole {
+	width: 340px;
+	height: 340px;
+	margin-left: 15%;
+}
+
+.fundo-branco {
+	background-color: white;	
+}
+
+.glyphicon-muted {
+	font-size: 70px;
+	color: #f05f40;
+}
+.mais-sobre-mim {
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.head-sobre-mim {	
+	padding-top: 3%;
+}
+
+.margin-left {
+	margin-left: 4%;
+}
+
+.descricao-sobre-mim {
+	padding-bottom: 2%;
+}
+
+h3 ~ p { /*seleciona todos o p que foram precedidos por h3 e são irmãos dele*/
+	text-indent: 30px;
+}
+/*End-if*/
+
+
+
+/* Rules habilidades*/
+.col-habilidades {
+	background-image: url("../img/home4.jpg");
+	height: 750px;
+}
+
+.col-back-end {
+	background-color: #f05f40;
+	height: 750px;
+}
+
+.col-habilidades,
+.col-front-end,
+.col-back-end {
+	padding-top: 17%;
+}
+
+.container-habilidades .glyphicon {
+	font-size: 80px;
+}
+ 
+.btn-habilidades {
+	margin-top: 5%;
+	background-color: transparent;
+	border: 1px solid;
+}
+
+.btn-habilidades:hover {
+	color: #9C9C9C;
+}
+
+.btn-habilidades:active {
+	color: #9C9C9C;
+}
+
+
+
+/*Rules Portfólio*/
+.content-portfolio {
+	padding-top: 5%;
+}
+
+.row-portfolio img {
+	height: 400px;
+	width: 100%;	
+}
+
+.row-portfolio {
+	padding-top: 5%;
+}
+
+hr {
+	 color: #f00;
+     background-color: #9C9C9C;
+     height: 3px;
+     margin-top: 20px;   
+}
+
+.hr-laranja {
+	 color: #f00;
+     background-color: #f05f40;
+     height: 3px;
+     margin-top: 20px;
+}
+
+.title-portfolio {	
+	font-size: 50px;		
+	font-family: 'Lato', sans-serif;
+}
+
+div img .flores:hover {
+	border-radius: 20px;
+}
+
+.sem-padding {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.content-portfolio .glyphicon-folder-open {
+	font-size: 50px;
+	padding-right: 20px;
+}
+
+
+
+/*Rules Contato*/
+.content-contato {
+	padding-top: 5%;	
+}
+
+.title-contato {	
+	font-size: 50px;		
+	font-family: 'Lato', sans-serif;
+}
+
+.content-contato .glyphicon-earphone {
+	font-size: 50px;
+	padding-right: 20px;
+}
+
+.content-form {
+	margin-left: 15%;
+	padding-top: 3%;
+}
+
+input[type=text] {
+	padding: 25px 0 20px 20px;
+	border: none;
+	border-bottom: 1px solid #9C9C9C;
+	font-size: 16px;
+}
+
+input[type=email] {
+	padding: 25px 0 20px 20px;
+	border: none;
+	border-bottom: 1px solid #9C9C9C;
+	font-size: 16px;
+}
+
+textarea {
+	padding: 25px 0 20px 20px;
+	border: none;
+	border-bottom: 1px solid #9C9C9C;
+	font-size: 16px;
+	width: 100%;
+}
+
+button[type=submit] {
+	color: #ff4000;
+	border-color: #ff4000;
+}
+
+.icones-contato {
+	font-size: 25px;
+	padding-right: 20px;
+}
+
+.info-contato {
+	padding-bottom: 7%;
+}
+
+.footer {
+	background-image: url("../img/lampada.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 750px;
+	margin-top: 5%;
+}
+
+.text-footer {
+	padding-top: 20%;
+}
+
+.footer-rede-social ul li {
+	display: inline;	
+}
+
+.row-rede-social {
+	margin-top: 10%;
+	padding-right: 6%;
+}
